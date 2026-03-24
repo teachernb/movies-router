@@ -1,3 +1,5 @@
+import MovieItem from "./MovieItem";
+
 const MovieList = ({movies}) => {
     return (
         <>

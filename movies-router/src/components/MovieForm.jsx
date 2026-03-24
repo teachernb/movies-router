@@ -1,3 +1,7 @@
+import { useRef } from "react";
+import Card from "../wrappers/Card";
+import styles from "./MovieForm.module.css";
+
 const MovieForm = ({ gatherData }) => {
 
     const titleRef = useRef();
@@ -66,6 +70,8 @@ const MovieForm = ({ gatherData }) => {
                             className={styles.textarea}
                             id="description"
                             ref={descriptionRef}
+                            cols={30}
+                            rows={5}
                         ></textarea>
                     </div>
 
